@@ -1,0 +1,41 @@
+url: https://oss.lge.com/ko-guide
+base_url: /
+title: LG Open Source
+lang: kor
+description: LG Open Source Korean Guide
+
+remote_theme: LGE-OSS/jekyll-rtd-theme
+
+show_sorted: false
+addons_branch: true
+
+copyright:
+  revision: true
+
+#google:
+#  gtag:
+
+addons:
+  - github
+  - i18n
+  - plugins
+  - analytics
+
+
+# sort
+readme_index:
+  with_frontmatter: true
+
+sass:
+  style: compressed
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+
+# optional plugins
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
